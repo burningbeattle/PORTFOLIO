@@ -1,0 +1,368 @@
+/* Custom Styles for Index Page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('IMG_20240215_110044.jpg') no-repeat center center/cover;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+}
+
+.about-section h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.projects-section h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 60px 0;
+}
+
+.skills-section h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.testimonials-section h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Call to Action Section */
+.cta-section {
+    padding: 60px 0;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.cta-section h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Custom Styles for About Page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Heading and Paragraph */
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #007bff;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Profile Image */
+img.rounded-circle {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: "\2022"; /* Unicode bullet symbol */
+    color: #007bff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Custom Styles for Projects Page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Heading and Paragraph */
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.card-img-top {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+/* Custom Styles for Contact Page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Heading and Paragraph */
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Heading and Paragraph */
+h1, h2 {
+    color: #007bff;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+/* Box Model */
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Font Properties */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+/* Combining Selectors */
+h1, h2 {
+    font-weight: bold;
+}
+
+/* Positioning */
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+/* Display */
+.card {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Float */
+.float-right {
+    float: right;
+}
+
+/* Flexbox */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-item {
+    flex: 1;
+    margin: 10px;
+}
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .card-img-top {
+        max-height: 150px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    img.rounded-circle {
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .cta-section h2 {
+        font-size: 2rem;
+    }
+
+    .cta-section p {
+        font-size: 1rem;
+    }
+}
